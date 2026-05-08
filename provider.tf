@@ -11,6 +11,5 @@ terraform {
 
 provider "google" {
   project = "cloudside-academy"
-  region  = "us-central1"
-  zone    = "us-central1-a"
+  region  = "us-central1
 }
