@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "gitnhub-actions-terraform/vpc"
-    prefix  = "terraform/state"
+    bucket  = "gitnhub-actions-terraform"
+    prefix  = "vpc"
   }
 }
