@@ -23,7 +23,7 @@ jobs:
       - run: terraform init
       - run: terraform plan
 
-  # JOB 2: The "Manual Approval" Gate
+  # JOB 2: The "Manual Approval"
   apply:
     needs: plan
     runs-on: ubuntu-latest
