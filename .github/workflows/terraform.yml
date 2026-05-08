@@ -27,7 +27,7 @@ jobs:
   apply:
     needs: plan
     runs-on: ubuntu-latest
-    environment: production  # <--- This is where GitHub asks you for "Yes"
+    environment: production
     
     steps:
       - uses: actions/checkout@v4
