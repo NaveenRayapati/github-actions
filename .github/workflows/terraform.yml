@@ -3,7 +3,11 @@ name: "Terraform Manual Deploy"
 on:
   push:
     branches: [ "main" ]
-
+    
+concurrency:
+  group: terraform-production
+  cancel-in-progress: false
+  
 permissions:
   id-token: write
   contents: read
